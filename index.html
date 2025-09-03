@@ -1,52 +1,184 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8>
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<link rel="stylesheet" href="style.css"/>
-<title>NMAM Institue Of Technology</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheet.css">
+  <title>NMAM Institute Of Technology</title>
+  <!--<style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .clg-info {
+      color: #ffffff;
+  }
+  
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+   
+    header {
+      display: flex;
+      align-items: center;
+      background: #5b8b4c;
+      padding: 10px;
+    }
+    .logo img {
+      height: 80px;
+      margin-right: 20px;
+    }
+
+    nav {
+      background: #395544;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+    }
+    nav ul li {
+      position: relative;
+    }
+    nav ul li a {
+      display: block;
+      padding: 14px 20px;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+    }
+    nav ul li a:hover {
+      background: #49774d;
+    }
+
+
+    .submenu {
+      display: none;
+      position: absolute;
+      background: #1e5f0a;
+      list-style: none;
+      top: 100%;
+      left: 0;
+      min-width: 200px;
+      flex-direction: column;
+      z-index: 1000;
+    }
+    .submenu li {
+      width: 100%;
+    }
+    .submenu li a {
+      padding: 10px;
+      display: block;
+      white-space: nowrap;
+    }
+    .dropdown:hover .submenu {
+      display: flex;
+    }
+
+    .image-container {
+      position: relative;
+    }
+    .banner-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .welcome-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 37px;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+    }
+
+    footer {
+      background: #5d755d;
+      color: rgb(255, 255, 255);
+      padding: 15px;
+      text-align: center;
+    }
+    .social-links img {
+      margin: 0 8px;
+      vertical-align: middle;
+    }
+    
+  </style>-->
 </head>
+
 <body>
-<header>
-<div class="logo">
-<img src="logo.png" alt="logo">
-</div>
-<div class="clg-info">
-<h1>NMAM Institue Of Technology</h1>
-<p>Affliated To Nitte University<p>
-<p>Adress: Karkala Taluk, Udupi, Karnataka, India</p>
-</div>
-</header>
-<nav>
-<ul class="menu">
-<li><a href="#">Home</a></li>
-<li><a href="#">About</a></li>
-<li class="dropdown">
-<a href="#">Department</a>
-<ul href="#" class="submenu">
-<li><a href="#">Computer Science</a></li>
-<li><a href="#">Information Science</a></li>
-<li><a href="#">Cyber Security</a></li>
-</ul>
-</li>
-<li><a href="#">Contact Us</a></li>
-</ul>
-</nav>
-<main>
-<section class="main-content">
-<img src="banner.jpeg" alt="bannner" style=" "/>
-<h2>Welcome to NITTE</h2>
-</section>
-</main>
-<footer>
-<div class="footer-content">
-<p>&copy; 2025 NMAMIT All rights reserved</p>
-<div class="social-links">
-<a href="#"><img src="facebook.jpeg" alt="facenook" height=25px width=25px></a>
-<a href="#"><img src="instagram.jpeg" alt="instagram" height=25px width=25px></a>
-<a href="#"><img src="twitter.png" alt="twitter" height=25px width=25px></a>
-</div>
-</div>
-</footer>
+  <header>
+    <div class="logo">
+      <img src="logo.jpg" alt="logo">
+    </div>
+    <div class="clg-info">
+      <h1>NMAM Institute Of Technology</h1>
+      <p>Affiliated To Nitte University</p>
+      <p>Address: Karkala Taluk, Udupi, Karnataka, India</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li class="dropdown">
+        <a href="#">Departments ▾</a>
+        <ul class="submenu">
+          <li><a href="cse.html">CSE</a></li>
+          <li><a href="electrical.html">Electronics</a></li>
+          <li><a href="mechanical.html">Mechanical</a></li>
+        
+        </ul>
+      </li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="main-content">
+      <div class="image-container">
+        <img src="aboutnitte.jpg" alt="banner" class="banner-img">
+        <center> <p class="welcome-text">Welcome to N.MA.M. Institute Of Technology</center></p>
+      </div>
+
+      <p>
+        Nitte Mahalinga Adyanthaya Memorial Institute of Technology (NMAMIT), Nitte, established in 1986 and
+        recognized by the All India Council for Technical Education, New Delhi, is now a constituent college of
+        Nitte (Deemed to be University), Mangaluru, since June 2022. Rank band 151-200 in the National
+        Institutional Ranking Framework (NIRF) 2024 by Ministry of Education, Government of India, the College
+        has been placed under ‘Platinum’ category for having high industry linkages by the AICTE-CII Survey of
+        Industry-Linked Technical Institutes 2020.
+      </p>
+      <p>
+        NMAMIT offers UG engineering programs in fifteen disciplines; Artificial Intelligence & Machine
+        Learning (AI&ML), Artificial Intelligence & Data Science (AI&DS), Biotechnology (BT), Civil
+        Engineering (CIV), Computer & Communication Engineering (CCE), Computer Science & Engineering (CS),
+        Computer Science (Cyber Security), Computer Science (Full Stack Development), Electrical & Electronics
+        Engineering (E&E), Electronics & Communication Engineering (E&C), Electronics (VLSI Design & Technology),
+        Electronics & Communication Engineering (ACT), Information Science & Engineering (IS), Mechanical Engineering (MECH) 
+        and Robotics & Artificial Intelligence (R&AI).
+      </p>
+      <p>
+        NMAMIT is housed in a vibrant, serene and green campus at Nitte spread over 125 acres and is nestled in
+        the Western Ghats of Southern India on the way to the Kudremukh ranges. The nearest airport is Mangaluru
+        International Airport (45 km). The nearest railway stations are Udupi (40 km) and Mangaluru (50 km).
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 NMAMIT All rights reserved</p>
+      <div class="social-links">
+        <a href="#"><img src="facebook.webp" alt="facebook" height="25" width="25"></a>
+        <a href="#"><img src="instagram.webp" alt="instagram" height="25" width="25"></a>
+        <a href="#"><img src="twitter.png" alt="twitter" height="25" width="25"></a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
